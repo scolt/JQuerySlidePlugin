@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SOME Action</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<script>
+	var params=(document.URL.indexOf ('?') > 0) ? document.URL.split ('?')[1]:'';
+	params=params.split('&');
+	$.each(params, function(){
+		$('body').append(this+'<br>');
+	})
+	//$('body').html(params);
+</script>
+</body>
+</html>
