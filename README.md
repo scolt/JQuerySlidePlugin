@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>JS</title>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="lib/slider.js"></script>
-  <script src="js.js"></script>
-  <link rel="stylesheet" href="lib/slider.css"/>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-<form action="some-action.html">
   <h1>Description</h1>
   <ul>
     <li><strong>disabled</strong> - disabled input (only draw)</li>
@@ -29,8 +17,3 @@
     responsive: false
   </pre>
   <hr/>
-  <button>OK</button>
-</form>
-
-</body>
-</html>
