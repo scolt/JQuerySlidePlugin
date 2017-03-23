@@ -1,4 +1,6 @@
-  <h1>Description</h1>
+  <h2>Live Demo</h2>
+  <a href="http://project.webtech.by/catalog/projects/slide/index.html"> Slide Plugin Demo</a>
+  <h2>Description</h2>
   <ul>
     <li><strong>disabled</strong> - disabled input (only draw)</li>
     <li><strong>responsive</strong> - run rebuild of item on orientation change event with saving params</li>
